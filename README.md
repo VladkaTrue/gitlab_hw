@@ -8,7 +8,7 @@
 
 ### Задание 2
 
-`https://github.com/VladkaTrue/Vladislove/commit/20ae16151c3ef9c7c791137e7b49ffb2f3d37dcd`
+`https://github.com/VladkaTrue/Vladislove/commit/c178311a27ae3a9bb06fa2be934c0dbe994bab99`
 
 ---
 
