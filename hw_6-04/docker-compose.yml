@@ -28,14 +28,12 @@ services:
     container_name: ChernyshevVV-netology-grafana
     volumes:
       - grafana_data:/var/lib/grafana
-      - grafana_config:/etc/grafana/grafana.ini
-      - grafana_custom:/etc/grafana/custom.ini
+      - grafana_config:/etc/grafana/custom.ini
     environment:
       - GF_PATHS_DATA=/var/lib/grafana
-      - GF_PATHS_CONFIG=/etc/grafana/grafana.ini
-      - GF_PATHS_CUSTOM=/etc/grafana/custom.ini
+      - GF_PATHS_CONFIG=/etc/grafana/custom.ini
     ports:
-      - 3000:80
+      - 3000:3000
     networks:
       default:
         ipv4_address: 10.5.0.12
@@ -45,7 +43,6 @@ volumes:
   pushgateway_data:
   grafana_data:
   grafana_config:
-  grafana_custom:
 
 networks:
   default:
