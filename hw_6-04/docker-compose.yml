@@ -16,7 +16,6 @@ services:
     image: prom/pushgateway:latest
     container_name: ChernyshevVV-netology-pushgateway
     volumes:
-      -./pushgateway.yml:/etc/pushgateway/pushgateway.yml
       - pushgateway_data:/pushgateway
     ports:
       - 9091:9091
