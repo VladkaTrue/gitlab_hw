@@ -1,4 +1,4 @@
-version: '3'
+version: '3.8'
 services:
   prometheus:
     image: prom/prometheus:latest
@@ -43,6 +43,8 @@ services:
 volumes:
   prometheus_data:
   pushgateway_data:
+  grafana_data:
+  grafana_config:
   grafana_custom:
 
 networks:
