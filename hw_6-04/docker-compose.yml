@@ -31,7 +31,7 @@ services:
     environment:
       - GF_PATHS_CUSTOM=/etc/grafana/custom.ini
     ports:
-      - 3000:3000
+      - 3000:80
     networks:
       default:
         ipv4_address: 10.5.0.12
