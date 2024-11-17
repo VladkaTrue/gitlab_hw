@@ -27,8 +27,10 @@ services:
     image: grafana/grafana:latest
     container_name: ChernyshevVV-netology-grafana
     volumes:
+      - grafana_data:/var/lib/grafana
       - grafana_custom:/etc/grafana/custom.ini
     environment:
+      - GF_PATHS_DATA=/var/lib/grafana
       - GF_PATHS_CUSTOM=/etc/grafana/custom.ini
     ports:
       - 3000:80
