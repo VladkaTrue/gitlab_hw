@@ -33,7 +33,7 @@ services:
       - GF_PATHS_DATA=/var/lib/grafana
       - GF_PATHS_CONFIG=/diff/etc/grafana/grafana.ini
     ports:
-      - 3000:80
+      - 3000:3000
     networks:
       default:
         ipv4_address: 10.5.0.12
