@@ -43,7 +43,6 @@ volumes:
   pushgateway_data:
   grafana_data:
   grafana_config:
-  grafana_custom:
 
 networks:
   default:
