@@ -31,7 +31,7 @@ services:
       - grafana_config:/diff/etc/grafana/grafana.ini
       - grafana_custom:/home/vladislove/Документы/GitHub/gitlab_hw/hw_6-04/grafana/custom.ini
     ports:
-      - 3000:80
+      - 80:3000
     networks:
       default:
         ipv4_address: 10.5.0.12
