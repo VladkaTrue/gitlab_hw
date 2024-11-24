@@ -11,6 +11,7 @@ services:
     networks:
       default:
         ipv4_address: 10.5.0.10
+    restart: always
 
   pushgateway:
     image: prom/pushgateway:latest
@@ -22,6 +23,7 @@ services:
     networks:
       default:
         ipv4_address: 10.5.0.11
+    restart: always
 
   grafana:
     image: grafana/grafana:latest
@@ -31,10 +33,11 @@ services:
       - grafana_config:/diff/etc/grafana/grafana.ini
       - grafana_custom:/home/vladislove/Документы/GitHub/gitlab_hw/hw_6-04/grafana/custom.ini
     ports:
-      - 80:3000
+      - 3000:80
     networks:
       default:
         ipv4_address: 10.5.0.12
+    restart: always
 
 volumes:
   prometheus_data:
