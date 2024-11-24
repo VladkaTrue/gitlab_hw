@@ -11,7 +11,7 @@ Docker Compose — это мощный инструмент для управл�
 ### Задание 2.
 **Выполните действия и приложите текст конфига на этом этапе.**
 
-    version: '3.8'
+    version: '4'
     services:
     volumes:
     networks:
@@ -24,9 +24,17 @@ Docker Compose — это мощный инструмент для управл�
       
 ---
 
-### Задание 3. 
-**Выполните действия (Prometheus)**
+### Задание 7. 
 
+1) Приложен файл docker-compose.yml
+2) скриншот docker ps
+![docker ps](https://github.com/VladkaTrue/gitlab_hw/blob/hw_6-04/img/img1.png?raw=true)
 
+3) скриншот графика
+![График](https://github.com/VladkaTrue/gitlab_hw/blob/hw_6-04/img/img2.png?raw=true)
 
 ---
+### Задание 8. 
+
+1) Скриншот команды
+![Команда](https://github.com/VladkaTrue/gitlab_hw/blob/hw_6-04/img/img3.png?raw=true)
