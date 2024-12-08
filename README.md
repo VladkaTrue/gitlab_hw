@@ -9,5 +9,13 @@
 
 ---
 
-### Задание 2
+### Задание 2 и Задание 3
 
+Не возможно добавить два шаблона т.к. в Linux by Zabbix Agent присутствует информация о загрузке RAM в процентах
+
+
+![fail](https://github.com/VladkaTrue/gitlab_hw/blob/hw_03/img/fail.png?raw=true)
+
+![hosts_](https://github.com/VladkaTrue/gitlab_hw/blob/hw_03/img/hosts_.png?raw=true)
+
+![latestdata](https://github.com/VladkaTrue/gitlab_hw/blob/hw_03/img/latestdata.png?raw=true)
