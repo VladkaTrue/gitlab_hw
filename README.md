@@ -5,6 +5,8 @@
 
 Прикрепите скриншот страницы шаблона с названием «Задание 1»
 
+![Шаблоны](https://github.com/VladkaTrue/gitlab_hw/blob/hw_03/img/%D0%A8%D0%B0%D0%B1%D0%BB%D0%BE%D0%BD%D1%8B.png?raw=true)
+
 ---
 
 ### Задание 2
