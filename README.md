@@ -28,8 +28,35 @@
 
 > systemctl enable zabbix-server apache2
 
+
 ---
 
 ### Задание 2
 
+1.  Приложите скриншот раздела Configuration > Hosts, где видно, что агенты подключены к серверу
 
+![активные хосты](https://github.com/VladkaTrue/gitlab_hw/blob/hw_02/img/hosts.png?raw=true)
+
+2.  Приложите скриншот лога zabbix agent, где видно, что он работает с сервером
+
+![первый](https://github.com/VladkaTrue/gitlab_hw/blob/hw_02/img/log%20on%20server%20host.png?raw=true)
+
+![второй](https://github.com/VladkaTrue/gitlab_hw/blob/hw_02/img/log%20on%20agent%20%28second%29%20host.png?raw=true)
+
+3.  Приложите скриншот раздела Monitoring > Latest data для обоих хостов, где видны поступающие от агентов данные.
+
+![Последние данные](https://github.com/VladkaTrue/gitlab_hw/blob/hw_02/img/latest_data.png?raw=true)
+
+4.  Приложите текст использованных команд в GitHub
+
+> wget https://repo.zabbix.com/zabbix/6.0/debian/pool/main/z/zabbix-release/zabbix-release_latest_6.0+debian12_all.deb
+
+> dpkg -i zabbix-release_latest_6.0+debian12_all.deb
+
+> apt update
+
+> apt install zabbix-agent
+
+> systemctl restart zabbix-agent
+
+> systemctl enable zabbix-agent
