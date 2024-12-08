@@ -19,3 +19,11 @@
 ![hosts_](https://github.com/VladkaTrue/gitlab_hw/blob/hw_03/img/hosts_.png?raw=true)
 
 ![latestdata](https://github.com/VladkaTrue/gitlab_hw/blob/hw_03/img/latestdata.png?raw=true)
+
+---
+
+### Задание 4
+
+Прикрепите скриншот дашборда с названием «Задание 4»
+
+![dashboard](https://github.com/VladkaTrue/gitlab_hw/blob/hw_03/img/dashboard.png?raw=true)
