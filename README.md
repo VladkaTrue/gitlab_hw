@@ -30,3 +30,15 @@
 ---
 
 ### Задание 4
+
+Прикрепите скриншот левого нижнего угла интерфейса, чтобы при наведении на иконку пользователя были видны ваши ФИО
+
+![grafana1](https://github.com/VladkaTrue/gitlab_hw/blob/hw_04/img/grafana1.png?raw=true)
+
+---
+
+### Задание 5
+
+Интегрируйте Grafana и Prometheus
+
+![grafana2](https://github.com/VladkaTrue/gitlab_hw/blob/hw_04/img/grafana2.png?raw=true)
