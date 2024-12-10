@@ -11,3 +11,10 @@
 
 ### Задание 2
 
+Прикрепите скриншот systemctl status node-exporter, где будет написано: node-exporter.service — Node Exporter Netology Lesson 9.4 — [Ваши ФИО]
+
+![nodeexporter](https://github.com/VladkaTrue/gitlab_hw/blob/hw_04/img/nodeexporter.png?raw=true)
+
+---
+
+### Задание 3
