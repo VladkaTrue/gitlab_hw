@@ -1,17 +1,13 @@
-# Домашнее задание к занятию "`Git`" - `Чернышев Владислав`
+
+# Домашнее задание к занятию "Система мониторинга Prometheus" - `Чернышев Владислав`
 
 ### Задание 1
 
-`https://github.com/VladkaTrue/Vladislove/commit/4c921f68bfaff96f0160595a2b9ffb9ee12a4324`
+Прикрепите скриншот systemctl status prometheus, где будет написано: prometheus.service — Prometheus Service Netology Lesson 9.4 — [Ваши ФИО]
+
+![prometheus_1](https://github.com/VladkaTrue/gitlab_hw/blob/hw_04/img/prometheus_1.png?raw=true)
 
 ---
 
 ### Задание 2
 
-`https://github.com/VladkaTrue/Vladislove/commit/c178311a27ae3a9bb06fa2be934c0dbe994bab99`
-
----
-
-### Задание 3
-
-`https://github.com/VladkaTrue/Vladislove/network`
