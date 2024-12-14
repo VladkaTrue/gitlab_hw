@@ -25,3 +25,20 @@
 ---
 
 ### Задание 2
+
+[Скрипт check.sh](https://github.com/VladkaTrue/gitlab_hw/blob/hw-09_01/check.sh)
+[Файл конфига keepalived](https://github.com/VladkaTrue/gitlab_hw/blob/hw-09_01/keepalived.conf)
+
+Скриншоты с демонстрацией переезда плавающего ip на другой сервер в случае недоступности порта или файла index.html.
+
+Работа в штатном режиме
+
+![ka1](https://github.com/VladkaTrue/gitlab_hw/blob/hw-09_01/img/ka1.png?raw=true)
+
+Переезд плавающего ip адреса на BACKUP при недоступности 80 порта на хосте MASTER
+
+![ka2](https://github.com/VladkaTrue/gitlab_hw/blob/hw-09_01/img/ka2.png?raw=true)
+
+Переезд плавающего ip адреса на BACKUP при недоступности файла index.html на хосте MASTER
+
+![ka3](https://github.com/VladkaTrue/gitlab_hw/blob/hw-09_01/img/ka2.png?raw=true)
