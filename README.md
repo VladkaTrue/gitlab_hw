@@ -1,17 +1,19 @@
-# Домашнее задание к занятию "`Git`" - `Чернышев Владислав`
+# Домашнее задание к занятию "Резервное копирование" - `Чернышев Владислав`
 
 ### Задание 1
 
-`https://github.com/VladkaTrue/Vladislove/commit/4c921f68bfaff96f0160595a2b9ffb9ee12a4324`
+На проверку направить скриншот с командой и результатом ее выполнения
+
+![rsync1](https://github.com/VladkaTrue/gitlab_hw/blob/hw-09_03/img/rsync1.png?raw=true)
 
 ---
 
 ### Задание 2
 
-`https://github.com/VladkaTrue/Vladislove/commit/c178311a27ae3a9bb06fa2be934c0dbe994bab99`
+На проверку направить файл crontab и скриншот с результатом работы утилиты.
 
----
+![script](https://github.com/VladkaTrue/gitlab_hw/blob/hw-09_03/img/script.png?raw=true)
 
-### Задание 3
+![crontab](https://github.com/VladkaTrue/gitlab_hw/blob/hw-09_03/img/crontab.png?raw=true)
 
-`https://github.com/VladkaTrue/Vladislove/network`
+![rsyncrontab](https://github.com/VladkaTrue/gitlab_hw/blob/hw-09_03/img/rsyncrontab.png?raw=true)
