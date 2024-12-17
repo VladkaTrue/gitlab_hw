@@ -1,17 +1,10 @@
-# Домашнее задание к занятию "`Git`" - `Чернышев Владислав`
+# Домашнее задание к занятию "Очереди RabbitMQ" - `Чернышев Владислав`
 
-### Задание 1
+### Задание 1. Установка RabbitMQ
 
-`https://github.com/VladkaTrue/Vladislove/commit/4c921f68bfaff96f0160595a2b9ffb9ee12a4324`
+Итогом выполнения домашнего задания будет приложенный скриншот веб-интерфейса RabbitMQ.
 
----
-
-### Задание 2
-
-`https://github.com/VladkaTrue/Vladislove/commit/c178311a27ae3a9bb06fa2be934c0dbe994bab99`
+![rmq](https://github.com/VladkaTrue/gitlab_hw/blob/hw_11-04/img/rmq.png?raw=true)
 
 ---
 
-### Задание 3
-
-`https://github.com/VladkaTrue/Vladislove/network`
