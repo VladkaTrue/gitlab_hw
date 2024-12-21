@@ -24,17 +24,17 @@ consumer.py
 
 В качестве решения домашнего задания приложите скриншоты из веб-интерфейса с информацией о доступных нодах в кластере и включённой политикой.
 
-![haall](https://github.com/VladkaTrue/gitlab_hw/blob/hw_11-04/img/haall.png?raw=true)
-![rmq12](https://github.com/VladkaTrue/gitlab_hw/blob/hw_11-04/img/rmq12.png?raw=true)
+![haall](https://github.com/VladkaTrue/gitlab_hw/blob/hw_11-04/img/haall.PNG?raw=true)
+![rmq12](https://github.com/VladkaTrue/gitlab_hw/blob/hw_11-04/img/rmq12.PNG?raw=true)
 
 Также приложите вывод команды с двух нод:
 ![clustat](https://github.com/VladkaTrue/gitlab_hw/blob/hw_11-04/img/clustat.png?raw=true)
 
 Для закрепления материала снова запустите скрипт producer.py и приложите скриншот выполнения команды на каждой из нод:
-![hello](https://github.com/VladkaTrue/gitlab_hw/blob/hw_11-04/img/hello.png?raw=true)
+![hello](https://github.com/VladkaTrue/gitlab_hw/blob/hw_11-04/img/hello.PNG?raw=true)
 
 После чего попробуйте отключить одну из нод, желательно ту, к которой подключались из скрипта, затем поправьте параметры подключения в скрипте consumer.py на вторую ноду и запустите его.
 
 Приложите скриншот результата работы второго скрипта.
 
-![secscript](https://github.com/VladkaTrue/gitlab_hw/blob/hw_11-04/img/secscript.png?raw=true)
+![secscript](https://github.com/VladkaTrue/gitlab_hw/blob/hw_11-04/img/secscript.PNG?raw=true)
