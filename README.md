@@ -37,4 +37,4 @@ consumer.py
 
 Приложите скриншот результата работы второго скрипта.
 
-![secscript](https://github.com/VladkaTrue/gitlab_hw/blob/hw_11-04/img/secscript.PNG?raw=true)
+![secsript](https://github.com/VladkaTrue/gitlab_hw/blob/hw_11-04/img/secsript.PNG?raw=true)
