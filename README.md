@@ -41,10 +41,22 @@ GRANT ALL PRIVILEGES ON * . * TO 'sys_temp'@'localhost';
 
 SHOW GRANTS FOR 'sys_temp'@'localhost';
 
-ALTER USER 'sys_temp'@'localhost' IDENTIFIED WITH caching_sha2_password BY '1234'; 
+ALTER USER 'sys_temp'@'localhost' IDENTIFIED WITH caching_sha2_password BY 'password'; 
 
 *В последней команде использовал `caching_sha2_password` вместо `mysql_native_password`, так как у себя поднял mysql версии 9.1.0 (Плагин `mysql_native_password` был объявлен устаревшим и удален в MySQL 9.0.0)
 
 ---
 
+### Задание 2
 
+Составьте таблицу, используя любой текстовый редактор или Excel, в которой должно быть два столбца: в первом должны быть названия таблиц восстановленной базы, во втором названия первичных ключей этих таблиц.
+Пример: (скриншот/текст)
+
+```
+Название таблицы | Название первичного ключа
+customer         | customer_id
+```
+
+![z2_1](https://github.com/VladkaTrue/gitlab_hw/blob/hw_12-02/img/z2_1.png?raw=true)
+
+![z2_2](https://github.com/VladkaTrue/gitlab_hw/blob/hw_12-02/img/z2_2.png?raw=true)
