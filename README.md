@@ -1,17 +1,36 @@
-# Домашнее задание к занятию "`Git`" - `Чернышев Владислав`
+# Домашнее задание к занятию "SQL. Часть 1" - `Чернышев Владислав`
 
 ### Задание 1
 
-`https://github.com/VladkaTrue/Vladislove/commit/4c921f68bfaff96f0160595a2b9ffb9ee12a4324`
+Получите уникальные названия районов из таблицы с адресами, которые начинаются на “K” и заканчиваются на “a” и не содержат пробелов.
+
+![z1](https://github.com/VladkaTrue/gitlab_hw/blob/hw_12-03/img/z1.png?raw=true)
 
 ---
 
 ### Задание 2
 
-`https://github.com/VladkaTrue/Vladislove/commit/c178311a27ae3a9bb06fa2be934c0dbe994bab99`
+Получите из таблицы платежей за прокат фильмов информацию по платежам, которые выполнялись в промежуток с 15 июня 2005 года по 18 июня 2005 года включительно и стоимость которых превышает 10.00.
+
+![z2](https://github.com/VladkaTrue/gitlab_hw/blob/hw_12-03/img/z2.png?raw=true)
 
 ---
 
 ### Задание 3
 
-`https://github.com/VladkaTrue/Vladislove/network`
+Получите последние пять аренд фильмов.
+
+![z3](https://github.com/VladkaTrue/gitlab_hw/blob/hw_12-03/img/z3.png?raw=true)
+
+---
+
+### Задание 4
+
+Одним запросом получите активных покупателей, имена которых Kelly или Willie.
+
+Сформируйте вывод в результат таким образом:
+
+все буквы в фамилии и имени из верхнего регистра переведите в нижний регистр,
+замените буквы 'll' в именах на 'pp'.
+
+![z4](https://github.com/VladkaTrue/gitlab_hw/blob/hw_12-03/img/z4.png?raw=true)
