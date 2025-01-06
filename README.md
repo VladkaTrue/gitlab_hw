@@ -1,17 +1,40 @@
-# Домашнее задание к занятию "`Git`" - `Чернышев Владислав`
+# Домашнее задание к занятию "Индексы" - `Чернышев Владислав`
 
 ### Задание 1
 
-`https://github.com/VladkaTrue/Vladislove/commit/4c921f68bfaff96f0160595a2b9ffb9ee12a4324`
+Напишите запрос к учебной базе данных, который вернёт процентное отношение общего размера всех индексов к общему размеру всех таблиц.
+
+![z1](https://github.com/VladkaTrue/gitlab_hw/blob/hw_12-05/img/z1.png?raw=true)
 
 ---
 
 ### Задание 2
 
-`https://github.com/VladkaTrue/Vladislove/commit/c178311a27ae3a9bb06fa2be934c0dbe994bab99`
+Выполните explain analyze следующего запроса:
 
----
+    select distinct concat(c.last_name, ' ', c.first_name), sum(p.amount) over (partition by c.customer_id, f.title)
+    from payment p, rental r, customer c, inventory i, film f
+    where date(p.payment_date) = '2005-07-30' and p.payment_date = r.rental_date and r.customer_id = c.customer_id and i.inventory_id = r.inventory_id
 
-### Задание 3
+-   перечислите узкие места;
+-   оптимизируйте запрос: внесите корректировки по использованию операторов, при необходимости добавьте индексы.
 
-`https://github.com/VladkaTrue/Vladislove/network`
+#### Ответ:
+К узким местам возможно отнести неправильность присоединения таблиц.
+
+Чтобы оптимизировать запрос сделал следующее:
+
+-   Использовал JOIN вместо перечисления таблиц через запятую.
+    
+-   Использовал оператор BETWEEN вместо функции DATE.
+
+![z2](https://github.com/VladkaTrue/gitlab_hw/blob/hw_12-05/img/z2.png?raw=true)
+
+    SELECT CONCAT(c.last_name, ' ', c.first_name), SUM(p.amount)
+    FROM payment p
+    JOIN rental r ON p.rental_id = r.rental_id
+    JOIN customer c ON r.customer_id = c.customer_id
+    JOIN inventory i ON r.inventory_id = i.inventory_id
+    JOIN film f ON i.film_id = f.film_id
+    WHERE p.payment_date BETWEEN '2005-07-30 00:00:00' AND '2005-07-30 23:59:59'
+    group by c.last_name, c.first_name, c.customer_id;
