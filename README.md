@@ -30,6 +30,9 @@
 
 ![z2](https://github.com/VladkaTrue/gitlab_hw/blob/hw_12-05/img/z2.png?raw=true)
 
+![z2-1](https://github.com/VladkaTrue/gitlab_hw/blob/hw_12-05/img/z21.png?raw=true)
+
+
     SELECT CONCAT(c.last_name, ' ', c.first_name), SUM(p.amount)
     FROM payment p
     JOIN rental r ON p.rental_id = r.rental_id
