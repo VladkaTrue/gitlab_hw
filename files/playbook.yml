@@ -1,0 +1,5 @@
+- name: Deploy Apache web server with custom index page
+  hosts: vms
+  become: yes
+  roles:
+    - apache_setup
