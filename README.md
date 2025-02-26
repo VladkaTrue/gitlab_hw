@@ -1,17 +1,78 @@
-# Домашнее задание к занятию "`Git`" - `Чернышев Владислав`
+
+# Домашнее задание к занятию "Ansible. Часть 1" - `Чернышев Владислав`
 
 ### Задание 1
 
-`https://github.com/VladkaTrue/Vladislove/commit/4c921f68bfaff96f0160595a2b9ffb9ee12a4324`
+
+**Ответьте на вопрос в свободной форме.**
+Какие преимущества даёт подход IAC?
+
+Подход IAC (Infrastructure as Code) предлагает несколько важных преимуществ:
+
+1. Автоматизация: Упрощает и ускоряет развертывание инфраструктуры, минимизируя ручные ошибки.
+
+2. Согласованность: Обеспечивает идентичность сред (разработки, тестирования, производства), что снижает риски сбоев.
+
+3. Масштабируемость: Позволяет легко адаптировать инфраструктуру под изменяющиеся нагрузки.
+
+4. Версионность: Код можно хранить в системах контроля версий, что упрощает отслеживание изменений и откат.
+
+5. Надежность: Автоматизация и тестирование кода снижают вероятность ошибок и повышают стабильность.
+
+
+Этот подход делает управление инфраструктурой более эффективным, предсказуемым и подходящим для современных DevOps-практик.
 
 ---
 
 ### Задание 2
 
-`https://github.com/VladkaTrue/Vladislove/commit/c178311a27ae3a9bb06fa2be934c0dbe994bab99`
+1.  Установите Ansible.
+
+![7-01-2-1](https://github.com/VladkaTrue/gitlab_hw/blob/hw_7-01/img/2-1.png?raw=true)
+
+2.  Настройте управляемые виртуальные машины, не меньше двух.
+
+![7-01-2-2-1](https://github.com/VladkaTrue/gitlab_hw/blob/hw_7-01/img/2-2-1.png?raw=true)
+
+![7-01-2-2-2](https://github.com/VladkaTrue/gitlab_hw/blob/hw_7-01/img/2-2-2.png?raw=true)
+
+3.  Создайте файл inventory с созданными вами ВМ.
+
+![7-01-2-3](https://github.com/VladkaTrue/gitlab_hw/blob/hw_7-01/img/2-3.png?raw=true)
+
+4.  Проверьте доступность хостов с помощью модуля ping.
+
+![7-01-2-4](https://github.com/VladkaTrue/gitlab_hw/blob/hw_7-01/img/2-4.png?raw=true)
 
 ---
 
 ### Задание 3
 
-`https://github.com/VladkaTrue/Vladislove/network`
+**Forks** — это сколько хостов Ansible обрабатывает одновременно (параллелизм, для скорости), задается глобально.
+**Serial** — это сколько хостов обрабатывается за один этап в плейбуке (последовательность, для контроля).
+
+Первый про производительность, второй про порядок.
+
+---
+
+### Задание 4
+
+1.  Установите на управляемых хостах любой пакет, которого нет.
+
+![7-01-4-1-1](https://github.com/VladkaTrue/gitlab_hw/blob/hw_7-01/img/4-1-1.png?raw=true)
+
+![7-01-4-1-2](https://github.com/VladkaTrue/gitlab_hw/blob/hw_7-01/img/4-1-2.png?raw=true)
+
+2.  Проверьте статус любого, присутствующего на управляемой машине, сервиса.
+
+![7-01-4-2-1](https://github.com/VladkaTrue/gitlab_hw/blob/hw_7-01/img/4-2-1.png?raw=true)
+
+![7-01-4-2-2](https://github.com/VladkaTrue/gitlab_hw/blob/hw_7-01/img/4-2-2.png?raw=true)
+
+![7-01-4-2-3](https://github.com/VladkaTrue/gitlab_hw/blob/hw_7-01/img/4-2-3.png?raw=true)
+
+3.  Создайте файл с содержимым «I like Linux» по пути /tmp/netology.txt.
+
+![7-01-4-3-1](https://github.com/VladkaTrue/gitlab_hw/blob/hw_7-01/img/4-3-1.png?raw=true)
+
+![7-01-4-3-2](https://github.com/VladkaTrue/gitlab_hw/blob/hw_7-01/img/4-3-2.png?raw=true)
